@@ -1,0 +1,53 @@
+﻿
+#body {
+    width: 590px;
+    margin: 78px auto;
+    border-radius: 25px;
+    padding: 40px
+}
+
+footer {
+    text-align: center;
+}
+
+#currency-date, #currency-amount, #currency-submit {
+    width: 85%;
+}
+
+#currency-submit {
+    margin-left: 4px;
+}
+
+#currency-from, #currency-to {
+    width: 105px;
+}
+
+#currency-submit.loading {
+    background-image: url('http://mvgen.com/loader.gif');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+#input, #output {
+    width: 270px;
+    /*border: 1px solid red;*/
+}
+
+#input {
+    float: left
+}
+
+#output {
+    float: right
+}
+
+.result-error {
+    font-style: italic;
+    font-weight: bold;
+    color: indianred;
+}
+
+.result-source, .result-currency {
+    font-weight: bold;
+}

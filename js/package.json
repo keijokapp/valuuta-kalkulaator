@@ -1,0 +1,17 @@
+{
+  "name": "valuuta-kalkulaator",
+  "version": "1.0.0",
+  "description": "none",
+  "readme": "none",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+	"babel-core": "latest",
+	"babel-preset-es2015": "latest",
+	"babel-preset-stage-0": "latest",
+	"babelify": "latest",
+	"watchify": "latest",
+	"browserify": "latest",
+	"gulp": "latest"
+  }
+}
